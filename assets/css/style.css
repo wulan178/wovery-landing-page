@@ -116,8 +116,8 @@ footer li {
     }
 
     .hero h1 {
-        font-size: 34px;
-        line-height: 44px;
+        font-size: 40px;
+        line-height: 54px;
         margin: 2vh 0;
     }
     
@@ -131,15 +131,15 @@ footer li {
     }
 
     .hero input::placeholder {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .hero p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .hero .btn, .hero input {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     /* Subscribes */
@@ -186,7 +186,7 @@ footer li {
     }
     
     .subscribe input::placeholder {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     /* Get the app */
