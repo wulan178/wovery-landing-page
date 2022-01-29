@@ -155,7 +155,7 @@ footer li {
     
     .subscribe img {
         width: 80vw;
-        margin-top: 5vh;
+        margin-top: 8vh;
     }
 
     .subscribe .call {
@@ -184,6 +184,11 @@ footer li {
 
     .subscribe form {
         width: 100%;
+    }
+
+    .subscribe .btn, .subscribe input {
+        font-size: 18px;
+        padding: 2vh auto;
     }
     
     .subscribe input::placeholder {
