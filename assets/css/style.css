@@ -140,6 +140,7 @@ footer li {
 
     .hero .btn, .hero input {
         font-size: 18px;
+        padding: 2vh auto;
     }
 
     /* Subscribes */
