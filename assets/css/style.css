@@ -230,11 +230,14 @@ footer li {
     footer .d-flex {
         width: 90%;
         flex-wrap: wrap;
-        justify-content: space-between;
     }
 
     footer li {
         font-size: 15px;
+    }
+
+    footer ul {
+        margin-right: 5vw;
     }
 
     footer ul .mb-lg-3 {
