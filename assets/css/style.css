@@ -212,9 +212,12 @@ footer li {
         width: 100%;
         margin-bottom: 5vh;
     }
+
+    .get-app .d-flex {
+        gap: 5vw;
+    }
     
     .get-app .d-flex img {
-        width: 50%;
         height: 7vh;
     }
 
