@@ -231,7 +231,7 @@ footer li {
 
     footer .d-flex {
         width: 90%;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     footer li {
