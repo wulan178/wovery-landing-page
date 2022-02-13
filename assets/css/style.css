@@ -218,6 +218,7 @@ footer li {
     }
     
     .get-app .d-flex img {
+        width: auto;
         height: 7vh;
     }
 
