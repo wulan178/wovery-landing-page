@@ -214,12 +214,11 @@ footer li {
     }
 
     .get-app .d-flex {
-        gap: 5vw;
-        max-width: 96vw;
+        gap: 4vw;
     }
     
     .get-app .d-flex img {
-        width: auto;
+        width: 40vw;
         height: 7vh;
     }
 
