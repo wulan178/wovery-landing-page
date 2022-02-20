@@ -1,0 +1,78 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hero */
+
+.hero h1 {
+    font-size: 44px;
+    line-height: 56px;
+}
+
+.hero form {
+    width: 90%;
+}
+
+.hero input {
+    width: 100%;
+}
+
+.hero .btn {
+    z-index: 2;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+    /* Hero */
+
+    .hero {
+        padding: 4vh 4vw;
+    }
+
+    .hero img {
+        width: 85vw;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        line-height: 42px;
+        margin: 2vh 0;
+    }
+    
+    .hero form {
+        width: 100%;
+        margin-top: 4vh;
+    }
+    
+    .hero input {
+        width: 100%;
+    }
+
+    .hero input::placeholder {
+        font-size: 12px;
+    }
+    
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero .btn, .hero input {
+        font-size: 16px;
+        padding: 2vh auto;
+    }
+}

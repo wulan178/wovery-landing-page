@@ -1,0 +1,96 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Subscribe */
+
+.subscribe h5 {
+    font-size: 32px;
+}
+
+.subscribe p {
+    font-size: 20px;
+}
+
+.subscribe form {
+    width: 75%;
+}
+
+.border-left-top {
+    border-left: 1px solid #00000026;
+    border-top: 1px solid #00000026;
+}
+
+.border-right-bottom {
+    border-right: 1px solid #00000026;
+    border-bottom: 1px solid #00000026;
+}
+
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    /* Subscribe */
+
+    .subscribe {
+        padding: 4vh 4vw;
+    }
+
+    .subscribe h5 {
+        font-size: 28px;
+    }
+    
+    .subscribe img {
+        width: 80vw;
+        margin-top: 8vh;
+    }
+
+    .subscribe .call {
+        font-size: 18px;
+        margin: 4vh auto;
+    }
+
+    .subscribe .d-flex {
+        flex-direction: column;
+        text-align: center;
+        padding: 4vh 0;
+    }
+
+    .subscribe .shadow {
+        width: 95vw;
+    }
+
+    .subscribe .d-flex .col {
+        width: 100%;
+    }
+
+    .border-left-top, .border-right-bottom {
+        border: none;
+    }
+
+    .subscribe p {
+        font-size: 18px;
+        margin-bottom: 5vh;
+    }
+
+    .subscribe form {
+        width: 100%;
+    }
+
+    .subscribe .btn, .subscribe input {
+        font-size: 16px;
+        padding: 2vh auto;
+    }
+    
+    .subscribe input::placeholder {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,54 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Get the app */
+
+.get-app h6 {
+    font-size: 22px;
+    line-height: 26px;
+    width: 55%;
+}
+
+.get-app h3 {
+    font-size: 48px;
+}
+
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    /* Get the app */
+
+    .get-app {
+        padding: 4vh 4vw;
+    }
+
+    .get-app h6 {
+        font-size: 20px;
+        line-height: 22px;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+
+    .get-app .d-flex {
+        gap: 4vw;
+    }
+    
+    .get-app .d-flex img {
+        width: 45vw;
+        height: 7vh;
+    }
+
+    .get-app h3 {
+        display: none;
+    }
+}

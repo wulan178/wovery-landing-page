@@ -1,0 +1,58 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+footer .d-flex {
+    width: 90%;
+}
+
+footer li {
+    font-size: 18px;
+}
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    footer {
+        padding: 4vh 4vw;
+        padding-bottom: 0;
+    }
+
+    footer .d-flex {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    footer li {
+        font-size: 16px;
+        margin-bottom: 1vh;
+    }
+
+    footer ul {
+        margin-right: 8vw;
+    }
+
+    footer ul .mb-lg-3 {
+        margin: 1vh auto;
+        font-size: 18px;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        margin: 3vh 1vw;
+    }
+
+    footer small {
+        padding: 2vh;
+        font-size: 12px;
+    }
+}

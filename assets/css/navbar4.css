@@ -1,0 +1,41 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-size: 28px;
+}
+
+.nav-item a {
+    font-size: 20px;
+}
+
+
+/* Mobile Responsive */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    
+    /* Navbar */
+    
+    .navbar-brand {
+        font-size: 28px;
+    }
+
+    .nav-item {
+        margin-bottom: 1vh;
+    }
+    
+    .nav-item a {
+        font-size: 18px;
+    }
+}
