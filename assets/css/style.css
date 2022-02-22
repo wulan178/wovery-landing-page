@@ -67,6 +67,11 @@ body::-webkit-scrollbar {
     width: 75%;
 }
 
+.subscribe .sub-shadow {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+
 /* Get the app */
 
 .get-app h6 {
@@ -171,8 +176,9 @@ footer li {
         padding: 4vh 0;
     }
 
-    .subscribe .shadow-sm {
+    .subscribe .sub-shadow {
         width: 95vw;
+        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
     }
 
     .subscribe .d-flex .col {
