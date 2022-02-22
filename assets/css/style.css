@@ -68,7 +68,8 @@ body::-webkit-scrollbar {
 }
 
 .subscribe .sub-shadow {
-    box-shadow: rgba(99, 99, 99, 0.15) 0px 2px 8px 0px;
+    /* box-shadow: rgba(99, 99, 99, 0.15) 0 2px 8px 0; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 10px;
 }
 
 
