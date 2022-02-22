@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
 }
 
 .subscribe .sub-shadow {
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 3px 1.5px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -178,7 +178,6 @@ footer li {
 
     .subscribe .sub-shadow {
         width: 95vw;
-        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.12);
     }
 
     .subscribe .d-flex .col {
